@@ -9,15 +9,16 @@ In much of the analyses completed I try to connect the dots, if any, between pre
 ***
 
 ### The Datasets:
-**GPCP Dataset**
+**GPCP Dataset:**
+
 The GPCP dataset is a one degree by one degree daily dataset that covers the time span of 1996-10-01 to 2020-05-31. This dataset is derived from satelite data. The dataset has been shown to match up well with reanalyses and ground measurements for the daily precipitation values. 
 For more info: (https://journals.ametsoc.org/jhm/article/2/1/36/4943/Global-Precipitation-at-One-Degree-Daily)
     
->Location: /scratch/zmanthos/GPCP/
-Files: Yearly with Daily data
-Date Range: 1996-10-01 to 2020-05-31
-Grid resolution: 1x1 degree
-Source: University of Maryland, Earth Systems Science Interdisciplinary Center
-*Lots of Metadata stored in the files
+ - Location: /scratch/zmanthos/GPCP/
+ - Files: Yearly with Daily data
+ - Date Range: 1996-10-01 to 2020-05-31
+ - Grid resolution: 1x1 degree
+ - Source: University of Maryland, Earth Systems Science Interdisciplinary Center
+ - *Lots of Metadata stored in the files
     
     
