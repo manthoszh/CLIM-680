@@ -53,4 +53,4 @@ This ENSO index is a quasi-daily standardized index for the NINO 3.4 region. It 
 
 First things first, below is a multipanel plot of the climatology of the GPCP data, showing each month individually.
 
-!(climatology.png)
+![](climatology.png)
