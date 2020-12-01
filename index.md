@@ -6,7 +6,7 @@ The main scientific topic I want to explore is precipitation variability. Precip
 
 In much of the analyses completed I try to connect the dots, if any, between precipitation and the Mid-Latitude Seasonal Oscillation (MLSO). It is well documented that there are large scale teleconnections, like ENSO, that have can influence precipitation over large areas and timescales. The MSLO is akin to the larger teleconnections and oscillation, it is a mode of variability for the Northern Hemisphere. It has an average period of 120 days. The MLSO has phases that lineup closely with the North Atlantic Oscillation (NAO) and the Pacific North American pattern (PNA), both of which have been shown to cause precipitation variability across North America.
 
-The El Nino Southern Oscillation (ENSO) index is also used for a comparison.
+An El Nino Southern Oscillation (ENSO) index is also used for a comparison.
 
 ***
 
@@ -46,11 +46,82 @@ This ENSO index is a quasi-daily standardized index for the NINO 3.4 region. It 
  - Resolution: Daily
  - Source: George Mason Univeristy, Zak Manthos
 
+***
 
 ### The Analysis:
 
-#### *Climatology*
+#### ***Climatology***
 
-First things first, below is a multipanel plot of the climatology of the GPCP data, showing each month individually.
+First things first, below is a multi-panel plot of the climatology of the GPCP data, showing each month individually.
 
 ![](climatology.png)
+
+This plot shows well that the precipitation of North America has a large about of variability. Also prominent is the spatial distribution of the precipitation, with the Southwest and Rocky Mountains having significanly less precipitation than in the Southeast and Northwest.
+
+Link to the code: [MMP Code](https://github.com/manthoszh/CLIM-680/blob/master/HW2.multipanelplot.ipynb)
+Link to the plot: [MMP Plot]()
+
+#### ***Precipitation and ENSO Index***
+
+Next was a look into how large scale teleconnections affect precipitaton. The ENSO index was split into it's well known phases of El Nino, La Nina, and the neutral inbetween. Then the plots below were created to see the average precipitation anomalies for each phase.
+
+![](enso.compos.png)
+
+These plots show large differences between the phases. Also note the number of days in each phase, neutral heavily outways the others with almost 5 times as many days averaged together.
+
+Link to the code: []()
+
+Link to the plot: []()
+
+#### ***Precipitation and MLSO Index***
+
+After taking a look at the composites for precipitation and the ENSO index I looked at composites for precipitation and the MLSO index. This is the same analysis as above but with a different index.
+
+![](mlso.compos.png)
+
+These plots are similiar to the ENSO composites but do vary. They do have areas that switch between positive and negative anomalies but the spatial distribution is not as simple.
+
+Below are plots of the differences between the MLSO composites. The stippling in these plots, and all plots below, shows areas that obtained a p-value less than 0.05 in a 2 sample T-test. 
+
+![](mlso.diffs.png)
+
+The "statistically significant" areas on these plots are realatively small and most likely would disapper if a field significance test was used. The plots that subtract out the neutral phase are bascially the same as  if they hadn't been. The neutral phase has too many days and the plot becomes to smoothed to have pronounced anomalies. The positive - negative (P-N) plot shows areas of strong differences. These differences would suggest that the precipitation anomalies in these areas might correlate well to the MLSO index. 
+
+Link to the code: []()
+
+Link to the plot: []()
+
+#### ***Correlation between Precipitation and MLSO Index***
+
+For this next analysis I aim to investigate if there are areas of strong correlation between the MLSO index and precipitation. The hope is that the strong differences seen in the P-N composite will translate to correlation.
+
+![](gpcp.mlso.corr.png)
+
+A basic lack of correlation is seen in the very small correlation values and as one would expect with such low values there were zero statistically significant areas. One positive note is that the signs of the correlation line up with the P-N composite.
+
+Link to the code: []()
+
+Link to the plot: []()
+
+#### ***Linear Regression between Precipitation and MLSO Index***
+
+After seeing the lack of significant correlation between precipittion and the MLSO index but also seeing a spatial pattern that lines up with the P-N composite, a linera regression analysis was done. For this analysis there is a hope that the spatial pattern in the correlations might translate to a more meaningful result.
+
+![](gpcp.mlso.regres.png)
+
+This plot lines up well with the spatial distribution of the correlation plot but shows larger values and has areas that are significant. Linear regression analysis might be a better way to go about understanding the relationship between precipitation and an index but it is far from perfect.
+
+Below is a plot of the linear regression of a single point in a statistically significant area in the Northwest.
+
+![](single.regres.png)
+
+This plot shows the complexity of dealing with precipitation data. There are so many factors that go into the why precipitation occurs that there is basically a zero percent chance that a single index will explain what actually happens.
+
+Link to the code: []()
+
+Link to the plot: []()
+
+***
+
+### The Summary:
+
