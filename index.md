@@ -15,7 +15,7 @@ An El Nino Southern Oscillation (ENSO) index is also used for a comparison.
 
 The GPCP dataset is a one degree by one degree daily dataset that covers the time span of 1996-10-01 to 2020-05-31. This dataset is derived from satelite data. The dataset has been shown to match up well with reanalyses and ground measurements for the daily precipitation values. 
 
-For more info: [Global-Precipitation-at-One-Degree-Daily](https://journals.ametsoc.org/jhm/article/2/1/36/4943/Global-Precipitation-at-One-Degree-Daily)
+Article: [Global-Precipitation-at-One-Degree-Daily](https://journals.ametsoc.org/jhm/article/2/1/36/4943/Global-Precipitation-at-One-Degree-Daily)
     
  - Location: /scratch/zmanthos/GPCP/
  - Files: gpcp_v01r03_daily.2020.nc  Yearly with Daily data
@@ -28,13 +28,13 @@ For more info: [Global-Precipitation-at-One-Degree-Daily](https://journals.amets
 
 The MLSO is a daily standardize climate index for a mode of variability in the Nothern Hemisphere. The index spans from 1979-01-01 to 2019-08-31.
 
-For more info: [Intra‑seasonal and seasonal variability of the Northern Hemisphere extra‑tropics](https://doi.org/10.1007/s00382-019-04827-9)
+Article: [Intra‑seasonal and seasonal variability of the Northern Hemisphere extra‑tropics](https://doi.org/10.1007/s00382-019-04827-9)
 
  - Location: /data/vortex/scratch/
  - File: mlso.index.01011979-08312019.nc
  - Date Range: 1979-01-01 to 2019-08-31
  - Resolution: Daily
- - Source: George Mason University, Dr Cristiana Stan
+ - Source: George Mason University, Ph.D. Cristiana Stan
 
 **ENSO Index**
 
@@ -91,7 +91,7 @@ The "statistically significant" areas on these plots are realatively small and m
 
 Link to the code: [MLSO Composites Code](https://github.com/manthoszh/CLIM-680/blob/master/DIFF.composites.ipynb)
 
-Link to the plots: [MLSO Composites](https://github.com/manthoszh/CLIM-680/blob/master/mlso.compos.png) [Composite Differences](https://github.com/manthoszh/CLIM-680/blob/master/mlso.diffs.png)
+Link to the plots: [MLSO Composites](https://github.com/manthoszh/CLIM-680/blob/master/mlso.compos.png)   [Composite Differences](https://github.com/manthoszh/CLIM-680/blob/master/mlso.diffs.png)
 
 
 
@@ -124,7 +124,7 @@ This plot shows the complexity of dealing with precipitation data. There are so 
 
 Link to the code: [Regression Code](https://github.com/manthoszh/CLIM-680/blob/master/Regression.ipynb)
 
-Link to the plot: [Regression Plot](https://github.com/manthoszh/CLIM-680/blob/master/gpcp.mlso.regres.png) [Single Point Plot](https://github.com/manthoszh/CLIM-680/blob/master/single.regres.png)
+Link to the plots: [Regression Plot](https://github.com/manthoszh/CLIM-680/blob/master/gpcp.mlso.regres.png)   [Single Point Plot](https://github.com/manthoszh/CLIM-680/blob/master/single.regres.png)
 
 
 ***
