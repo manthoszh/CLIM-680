@@ -53,55 +53,45 @@ This ENSO index is a quasi-daily standardized index for the NINO 3.4 region. It 
 #### ***Climatology***
 
 First things first, below is a multi-panel plot of the climatology of the GPCP data, showing each month individually.
-
 ![](climatology.png)
-
 This plot shows well that the precipitation of North America has a large about of variability. Also prominent is the spatial distribution of the precipitation, with the Southwest and Rocky Mountains having significanly less precipitation than in the Southeast and Northwest.
 
 Link to the code: [MMP Code](https://github.com/manthoszh/CLIM-680/blob/master/HW2.multipanelplot.ipynb)
-Link to the plot: [MMP Plot]()
+Link to the plot: [MMP Plot](https://github.com/manthoszh/CLIM-680/blob/master/climatology.png)
 
 #### ***Precipitation and ENSO Index***
 
 Next was a look into how large scale teleconnections affect precipitaton. The ENSO index was split into it's well known phases of El Nino, La Nina, and the neutral inbetween. Then the plots below were created to see the average precipitation anomalies for each phase.
-
 ![](enso.compos.png)
-
 These plots show large differences between the phases. Also note the number of days in each phase, neutral heavily outways the others with almost 5 times as many days averaged together.
 
-Link to the code: []()
+Link to the code: [ENSO-Composite Code](https://github.com/manthoszh/CLIM-680/blob/master/ENSO.composites.ipynb)
 
-Link to the plot: []()
+Link to the plot: [ENSO-Composite Plot](https://github.com/manthoszh/CLIM-680/blob/master/enso.compos.png)
 
 #### ***Precipitation and MLSO Index***
 
 After taking a look at the composites for precipitation and the ENSO index I looked at composites for precipitation and the MLSO index. This is the same analysis as above but with a different index.
-
 ![](mlso.compos.png)
-
 These plots are similiar to the ENSO composites but do vary. They do have areas that switch between positive and negative anomalies but the spatial distribution is not as simple.
 
 Below are plots of the differences between the MLSO composites. The stippling in these plots, and all plots below, shows areas that obtained a p-value less than 0.05 in a 2 sample T-test. 
-
 ![](mlso.diffs.png)
-
 The "statistically significant" areas on these plots are realatively small and most likely would disapper if a field significance test was used. The plots that subtract out the neutral phase are bascially the same as  if they hadn't been. The neutral phase has too many days and the plot becomes to smoothed to have pronounced anomalies. The positive - negative (P-N) plot shows areas of strong differences. These differences would suggest that the precipitation anomalies in these areas might correlate well to the MLSO index. 
 
-Link to the code: []()
+Link to the code: [MLSO Composites Code](https://github.com/manthoszh/CLIM-680/blob/master/DIFF.composites.ipynb)
 
-Link to the plot: []()
+Link to the plots: [MLSO Composites](https://github.com/manthoszh/CLIM-680/blob/master/mlso.compos.png) [Composite Differences](https://github.com/manthoszh/CLIM-680/blob/master/mlso.diffs.png)
 
 #### ***Correlation between Precipitation and MLSO Index***
 
 For this next analysis I aim to investigate if there are areas of strong correlation between the MLSO index and precipitation. The hope is that the strong differences seen in the P-N composite will translate to correlation.
-
 ![](gpcp.mlso.corr.png)
+A basic lack of correlation is seen in the very small correlation values and as one would expect with such low values there are zero statistically significant areas. One positive note is that the signs of the correlation line up with the P-N composite.
 
-A basic lack of correlation is seen in the very small correlation values and as one would expect with such low values there were zero statistically significant areas. One positive note is that the signs of the correlation line up with the P-N composite.
+Link to the code: [Correlation Code](https://github.com/manthoszh/CLIM-680/blob/master/Correlation.ipynb)
 
-Link to the code: []()
-
-Link to the plot: []()
+Link to the plot: [Correlation Plot](https://github.com/manthoszh/CLIM-680/blob/master/gpcp.mlso.corr.png)
 
 #### ***Linear Regression between Precipitation and MLSO Index***
 
@@ -117,9 +107,9 @@ Below is a plot of the linear regression of a single point in a statistically si
 
 This plot shows the complexity of dealing with precipitation data. There are so many factors that go into the why precipitation occurs that there is basically a zero percent chance that a single index will explain what actually happens.
 
-Link to the code: []()
+Link to the code: [Regression Code](https://github.com/manthoszh/CLIM-680/blob/master/Regression.ipynb)
 
-Link to the plot: []()
+Link to the plot: [Regression Plot](https://github.com/manthoszh/CLIM-680/blob/master/gpcp.mlso.regres.png) [Single Point Plot](https://github.com/manthoszh/CLIM-680/blob/master/single.regres.png)
 
 ***
 
