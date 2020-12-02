@@ -1,6 +1,7 @@
 # Class Project: Dataset Investigation
 ## Global Precipitation Climatology Project (GPCP) & Mid-Latitude Seasonal Ocsilation (MLSO)
 #### *Zak Manthos*
+*Best viewed with dark background*
 ***
 ## The Question:
 The main scientific topic I want to explore is precipitation variability. Precipitation and other weather phenomena vary for many reasons of which vary in scale from meters to tens of thousand of kilometers and from minutes to decades. Trying to understand the reasons why precipitation does what it does is a complex set of questions that if answered could have major societal benfits.
